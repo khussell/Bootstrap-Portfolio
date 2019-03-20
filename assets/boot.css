@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    height: auto;
+}
+
+nav{
+    border-bottom: 10px dimgray solid;
+    height: 100px;
+}
+
+.navbar-brand{
+    font-size: 40px;
+    font-family: Candara;
+}
+
+.container{
+    height: auto;
+    background-color: silver;
+    border-right:10px dimgray solid;
+    border-left: 10px dimgray solid;
+    border-bottom: 10px dimgray ;
+    
+}
+
+
+.row1{
+    margin-top: 0px;
+    
+    padding: 30px;
+    
+    position: relative;
+    
+}
+
+.aboutHeading{
+    color: black;
+    font-family: candara, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+hr{
+    color: white;
+}
+
+p{ 
+    font-size: 18px;
+    color: black;
+    padding-left: 20px;
+}
+
+.lastP{
+    padding-bottom: 50px;
+}
+
+.row{
+    position: relative;
+}
+
+img{ 
+    width: 100%;
+    height: 120%;
+    
+    border: 11px white solid;
+    padding: 10px;
+    border-radius: 15%;
+      
+}
+
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
+
+
+footer{
+    border-top: 10px dimgray solid;
+    height: 60px;
+    width: 100%;
+    
+}
+
+.fix{
+    position: fixed;
+    bottom: 0;
+}
+
+.h1{
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+
+
+
+/*Portfolio*/
+.portHeading{
+    font-family: Candara;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: dotted white 10px;
+}
+
+.portHeading> h1{
+   font-weight: bold;
+   font-size: 50px;
+}
+
+
+.card{
+    text-align: center;
+    border: solid dimgray 10px;
+    margin: 0 auto; 
+  
+    
+    
+}
+
+.portCards{
+    height: auto;
+}
+
+.row2{
+    margin-bottom: 60px;
+}
+
+.row3{
+    padding-bottom: 100px;
+   
+}
+
+
+.four{
+    margin-left: 230px;
+}
+
+.five{
+    margin-right: 230px;
+}
+
+.btn{
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+
+
+
