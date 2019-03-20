@@ -107,11 +107,11 @@ footer{
     font-family: Candara;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    border-bottom: dotted white 10px;
+    border-bottom: solid white 2px;
 }
 
 .portHeading> h1{
-   font-weight: bold;
+   
    font-size: 50px;
 }
 
@@ -120,6 +120,7 @@ footer{
     text-align: center;
     border: solid dimgray 10px;
     margin: 0 auto; 
+    margin-bottom: 60px;
   
     
     
@@ -129,29 +130,47 @@ footer{
     height: auto;
 }
 
-.row2{
-    margin-bottom: 60px;
-}
+
 
 .row3{
-    padding-bottom: 100px;
+    padding-bottom: 80px;
    
 }
 
 
-.four{
-    margin-left: 230px;
-}
 
-.five{
-    margin-right: 230px;
-}
-
-.btn{
+.btnPort{
     padding-bottom: 15px;
     font-weight: bold;
 }
 
+
+
+
+/*Contact Page*/
+
+.contactHeading{
+    font-family: Candara, sans-serif;
+    font-weight: bold;
+    border-bottom: white solid 2px;
+
+}
+
+.contacth1{
+    
+    font-size: 50px;
+
+}
+
+form{
+    margin: 0 20px;
+}
+.btnContact{
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
 
 
 
